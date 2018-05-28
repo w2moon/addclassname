@@ -3,4 +3,4 @@
 所以给TypeScript生成的__extends类上加上类名
 __extends(ClassA,_super);
 变成
-__extends(ClassA,_super);ClassA.name = "ClassA";
+__extends(ClassA,_super);ClassA.dname = "ClassA";

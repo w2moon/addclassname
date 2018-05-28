@@ -17,7 +17,7 @@ function addClassName(str) {
   while (arr) {
     let moduleName = arr[1];
     let o = str.substr(arr.index, arr[0].length);
-    ostr = ostr.replace(o, o + moduleName + ".name=\"" + moduleName + "\";");
+    ostr = ostr.replace(o, o + moduleName + ".dname=\"" + moduleName + "\";");
     arr = reg.exec(str);
   }
   return ostr;
